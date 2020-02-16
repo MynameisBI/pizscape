@@ -1,7 +1,7 @@
 # Pizscape
 After you clone the project or extract the zip file, first install LÖVE if you haven't already
 ```
-sudo apt install love2d
+sudo apt install love
 ```
 Then you can just run love with the project folder
 ```
