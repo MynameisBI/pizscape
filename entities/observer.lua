@@ -22,8 +22,8 @@ function Observer:Draw()
 		if popUpState == true then lg.setColor(1, 1, 1, 0.8)
 		elseif popUpState == false then lg.setColor(1, 1, 1, 0)
 		end
-		lg.setFont(Fonts.smallGUI_)
-		lg.print(popUpText, 10, lg.getHeight() - 64)
+		lg.setFont(Fonts.GUI)
+		lg.print(popUpText, 15, lg.getHeight() - 80)
 	end
 end
 
