@@ -203,6 +203,9 @@ function GameManager:Reset()
 	score = 0
 	currentLives = 20
 	self.spells = { Bow() }
+	
+	spell = ''
+	command = {}
 end
 
 return GameManager
